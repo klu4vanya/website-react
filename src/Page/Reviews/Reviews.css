@@ -1,0 +1,46 @@
+@media screen and (min-width: 575px) {
+
+    .container {
+        /* margin: 10% 10% 0 10%; */
+        width: 80vw;
+        margin: 0 auto;
+
+    }
+
+    .review-card-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .title-review {
+        font-size: 200%;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .title-button-wrapper {
+        margin: 5% 4% 5% 4%;
+    }
+    .carousel{
+        display: none;
+    }
+}
+@media screen and (max-width: 575px) {
+    .review-card-wrapper{
+        display: none;
+    }
+    .title-review{
+        font-size: 200%;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        width: 80%;
+        margin: 0 auto;
+        padding: 5% 0 0 0;
+    }
+}

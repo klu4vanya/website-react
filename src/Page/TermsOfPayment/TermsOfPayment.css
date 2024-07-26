@@ -1,0 +1,71 @@
+@media screen and (min-width: 575px) {
+    .container-pay {
+        background-color: #cbdbc5;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        padding: 0 0 5% 0;
+    }
+
+    .title {
+        font-size: 200%;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 3%;
+    }
+
+    .subtitle {
+        margin: 3% 0 3% 0;
+        font-size: larger;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        margin: 0 18%;
+        background-color: #e3ece0;
+        margin-bottom: 7%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .container-pay {
+        width: 90%;
+        margin: 0 auto;
+        background-color: #cbdbc5;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 0 0 5% 0;
+    }
+    .title {
+        font-size: 200%;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 3%;
+    }
+    .subtitle {
+        margin: 3% 0 3% 0;
+        font-size: larger;
+    }
+    .card-container{
+        display: none;
+    }
+    .carousel{
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        margin: 0 18%;
+        background-color: #e3ece0;
+        margin-bottom: 7%;
+    }
+}

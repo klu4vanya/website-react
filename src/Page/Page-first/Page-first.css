@@ -1,0 +1,110 @@
+@media screen and (min-width: 575px) {
+    .green-background {
+        background-color: #cbdbc5;
+        position: absolute;
+        right: 0;
+        width: 50%;
+        height: 110vh;
+        top: 0;
+        z-index: -1;
+    }
+
+    .dasha-image {
+        margin-left: 10%;
+        width: 60%;
+
+    }
+
+    .dasha-image img {
+        width: 100%;
+        height: 90vh;
+        object-fit: cover;
+        border: #fff 15px solid;
+    }
+
+    .info {
+        background-color: #e8e6e6;
+        width: 30%;
+        position: absolute;
+        right: 15%;
+        top: 20%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        border: #fff 10px solid;
+    }
+
+    #learn-eanglish {
+        font-size: 300%;
+        margin: 10% 0 0 10%;
+        color: #6b6b6b;
+    }
+
+    .button-wraper {
+        display: flex;
+        margin: 10% 0 10% 10%;
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+    .button-wraper span {
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .green-background {
+        background-color: #cbdbc5;
+        margin-top: 5%;
+        height: 100vh;
+        z-index: -1;
+    }
+
+    .info {
+        background-color: #e8e6e6;
+        width: 100%;
+        position: absolute;
+        /* right: 15%; */
+        top: 20%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        border: #fff 10px solid;
+    }
+
+    #learn-eanglish {
+        font-size: 300%;
+        margin: 10% 0 0 10%;
+        color: #6b6b6b;
+    }
+
+    .button-wraper {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        margin-bottom: 5%;
+        /* justify-content: center; */
+    }
+
+    .button-wraper span {
+        color: #000;
+        margin: 0 auto;
+    }
+
+    .dasha-image {
+        width: 90%;
+        
+    }
+
+    .dasha-image img {
+        width: 80%;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, 0%); 
+        object-fit: cover;
+        border: #fff 15px solid;
+    }
+}
